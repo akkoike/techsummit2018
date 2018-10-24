@@ -18,7 +18,7 @@
         },
         "numberOfInstances": {
             "type": "int",
-            "defaultValue": 3,
+            "defaultValue": 2,
             "minValue": 2,
             "maxValue": 6,
             "metadata": {
