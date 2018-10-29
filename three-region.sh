@@ -4,7 +4,7 @@ DATE_H=`date +%Y%m%d-%H`
 NEW_RG_NAME="southeastasia-${DATE_H}-rg"
 NEW_RG_NAME2="uksouth-${DATE_H}-rg"
 NEW_RG_NAME3="australiasoutheast-${DATE_H}-rg"
-TEMPLATE_FILE=/home/akira/template2/centloop.json
+TEMPLATE_FILE=/home/akira/techsummit/techsummit2018/centloop.json
 
 FLG=`az group list --output table | awk '{ print $1 }' | egrep '(${NEW_RG_NAME}|${NEW_RG_NAME2}|${NEW_RG_NAME3})'`
 

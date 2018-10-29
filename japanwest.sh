@@ -2,7 +2,7 @@
 
 DATE_H=`date +%Y%m%d-%H`
 NEW_RG_NAME="japanwest-${DATE_H}-rg"
-TEMPLATE_FILE=/home/akira/template2/westcentkoike-rg.json
+TEMPLATE_FILE=/home/akira/techsummit/techsummit2018/westcentkoike-rg.json
 
 FLG=`az group list --output table | awk '{ print $1 }' | grep ${NEW_RG_NAME}`
 

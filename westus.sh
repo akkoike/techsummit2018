@@ -2,7 +2,7 @@
 
 DATE_H=`date +%Y%m%d-%H`
 NEW_RG_NAME="westus-${DATE_H}-rg"
-TEMPLATE_FILE=/home/akira/template2/centloop.json
+TEMPLATE_FILE=/home/akira/techsummit/techsummit2018/centloop.json
 
 FLG=`az group list --output table | awk '{ print $1 }' | grep ${NEW_RG_NAME}`
 
